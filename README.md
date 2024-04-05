@@ -66,6 +66,10 @@ O projeto possui as seguintes rotas:
 - `/dash`: Rota que permite visualizar o histórico das requisições realizadas (front-end);
 - `/info`: Rota que retorna mídia sobre os dados armazenados no banco de dados.
 
+## Imagens
+
+![Dash](imgs/dash.png)
+
 ## Dependências
 
 - Flask 3.0.2
