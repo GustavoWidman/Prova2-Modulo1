@@ -1,4 +1,4 @@
-# Prova2-Modulo1 - Ponderada Gustavo Wagon Widman
+# Prova2-Modulo1 - Gustavo Wagon Widman
 
 ## Descrição
 
