@@ -3,7 +3,7 @@ from types import TracebackType
 from typing import Self
 from tinydb import TinyDB
 import threading
-
+import os
 
 class DB:
 	_instances: dict[str, Self] = {}  # Class-level dictionary to store instances
@@ -19,6 +19,7 @@ class DB:
 
 		self.path = path
 		self.lock = threading.Lock()
+		if not os.path.exists(os.path.dirname(path)): os.makedirs(os.path.dirname(path))
 		self.db = TinyDB(self.path)
 		self.is_initialized = True  # Flag to prevent reinitialization
 
