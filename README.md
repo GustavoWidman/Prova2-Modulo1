@@ -102,3 +102,8 @@ O projeto possui as seguintes rotas:
 
 - Flask 3.0.2
 - TinyDB 4.8.0
+
+## Dependências do front-end
+
+- Bulma CSS 1.0.0
+- HTMX 1.9.11
