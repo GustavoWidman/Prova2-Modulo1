@@ -6,22 +6,50 @@ Este projeto foi desenvolvido a partir da proposta entregue na prova 2 do modulo
 
 ## Instalação e execução
 
-Para instalar as dependências do projeto, comece clonando o repositório
+### Para instalar as dependências do projeto, comece clonando o repositório
 
 ```bash
 git clone https://github.com/GustavoWidman/Prova2-Modulo1.git
 ```
 
-Depois, entre na pasta do projeto, crie um ambiente virtual (venv) e ative-o.
+### Depois, entre na pasta do projeto, e crie um ambiente virtual (venv)
 
 ```bash
-cd Prova2-Modulo1 && python -m venv env && source env/bin/activate
+cd Prova2-Modulo1
 ```
 
-Finalmente, instale as dependências do projeto com o comando:
+```bash
+python -m venv venv
+```
+
+OU (usando [uv](https://github.com/astral-sh/uv))
+
+```bash
+uv venv venv
+```
+
+### Ative o ambiente virtual com o seguinte comando
+
+```bash
+source venv/bin/activate
+```
+
+OU (no Windows)
+
+```bash
+.\venv\Scripts\activate
+```
+
+### Finalmente, instale as dependências do projeto com o comando:
 
 ```bash
 pip install -r requirements.txt
+```
+
+OU (usando [uv](https://github.com/astral-sh/uv))
+
+```bash
+uv pip install -r requirements.txt
 ```
 
 Para rodar o projeto, execute:
