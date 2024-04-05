@@ -52,7 +52,7 @@ OU (usando [uv](https://github.com/astral-sh/uv))
 uv pip install -r requirements.txt
 ```
 
-Para rodar o projeto, execute:
+### Para rodar o projeto, execute:
 
 ```bash
 python src/main.py
